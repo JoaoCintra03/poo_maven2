@@ -1,0 +1,1 @@
+// Arquivo criado apenas para estruturação e organização do projeto, pode ser posteriormente alterado ou excluído
