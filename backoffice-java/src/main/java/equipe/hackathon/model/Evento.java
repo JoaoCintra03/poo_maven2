@@ -7,9 +7,12 @@ public class Evento {
     private String dataHora;
     private String curso;
     private String lugar;
+    private int palestranteId;
+    private String palestranteNome;
 
     public Evento() {}
 
+    // Getters e Setters
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
@@ -25,11 +28,12 @@ public class Evento {
     public String getCurso() { return curso; }
     public void setCurso(String curso) { this.curso = curso; }
 
-    public void setLugar(String lugar) {
-        this.lugar = lugar;
-    }
+    public String getLugar() { return lugar; }
+    public void setLugar(String lugar) { this.lugar = lugar; }
 
-    public String getLugar() {
-        return lugar;
-    }
+    public int getPalestranteId() { return palestranteId; }
+    public void setPalestranteId(int palestranteId) { this.palestranteId = palestranteId; }
+
+    public String getPalestranteNome() { return palestranteNome; }
+    public void setPalestranteNome(String palestranteNome) { this.palestranteNome = palestranteNome; }
 }
